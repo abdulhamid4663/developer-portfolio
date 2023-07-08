@@ -242,6 +242,55 @@ ul {
 }
 /* RESUME SECTION ENDS */
 
+/* FOOTER SECTION STARTS */
+.footer {
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+.footer .container > .row {
+    gap: 110px;
+}
+.footer .footer-container {
+    width: 42%;
+}
+.footer .footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer .footer-connect {}
+.footer .footer-connect p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;;
+}
+.footer .footer-connect .footer-connect-social {}
+.footer .footer-connect .footer-connect-social .row {
+    gap: 24px;
+}
+.footer .footer-connect .footer-connect-social ul {}
+.footer .footer-connect .footer-connect-social ul li {}
+.footer .footer-connect .footer-connect-social ul li a {}
+.footer .footer-form {}
+.footer .footer-form form {}
+.footer .footer-form form input[type="text"], .footer .footer-form form input[type="email"], .footer .footer-form form textarea {
+    width: 100%;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 0 18px 30px;
+    margin-bottom: 24px;
+}
+
+
+/* FOOTER SECTION ENDS */
+
 @media (min-width: 1200px) {
     .container {
         width: 1140px;
