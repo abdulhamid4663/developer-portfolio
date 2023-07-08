@@ -30,6 +30,9 @@ a, a:visited, a:hover {
 .align-items-center {
     align-items: center;
 }
+ul {
+    list-style: none;
+}
 .btn-primary {
     color: white;
     font-size: 20px;
@@ -38,7 +41,6 @@ a, a:visited, a:hover {
     border: 1px solid #FD6E0A;
     padding: 17px 34px;
     border-radius: 5px;
-
 }
 .btn-primary:hover {
     cursor: pointer;
@@ -74,9 +76,6 @@ a, a:visited, a:hover {
 }
 .header .header-logo a h1 span {
     color: #FD6E0A;
-}
-.header nav ul {
-    list-style: none;
 }
 .header nav ul li:not(:last-of-type) {
     margin-right: 50px;
@@ -160,7 +159,9 @@ a, a:visited, a:hover {
 /* ABOUT ME SECTION ENDS */
 
 /* WHAT I DO SECTION STARTS */
-.what-i-do {}
+.what-i-do {
+    margin-bottom: 130px;
+}
 .what-i-do .row {
     gap: 24px;
 }
@@ -191,14 +192,64 @@ a, a:visited, a:hover {
 }
 /* WHAT I DO SECTION ENDS */
 
+/* RESUME SECTION STARTS */
+.resume {
+    margin-bottom: 130px;
+}
+.resume .row {
+    gap: 24px;
+}
+.resume .resume-header {
+    text-align: center;
+    margin-bottom: 110px;
+}
+.resume .resume-header h1 {}
+.resume .resume-container {
+    width: 100%;
+}
+.resume .resume-container h2 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume .resume-education {}
+.resume .resume-experience {}
+.resume .resume-data {}
+.resume .resume-data h3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+}
+.resume .resume-data h5 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume .resume-data p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px;
+}
+.resume .resume-data hr {
+    color: #D1D1D1;
+}
+.resume .resume-btn {
+    text-align: center;
+    margin-top: 69px;
+}
+/* RESUME SECTION ENDS */
+
 @media (min-width: 1200px) {
     .container {
         width: 1140px;
         padding: 0;
     }
-    /* .banner .banner-container .banner-texts {
-        width: 40%;
-    } */
+    .resume .resume-container {
+        width: 48%;
+    }
 }
 @media (min-width: 1600px) {
     .container {
