@@ -246,12 +246,13 @@ ul {
 .footer {
     background-color: #FFF8F3;
     padding: 130px 0;
+    text-align: center;
 }
 .footer .container > .row {
     gap: 110px;
 }
 .footer .footer-container {
-    width: 42%;
+    width: 100%;
 }
 .footer .footer-container h2 {
     color: #181818;
@@ -277,7 +278,8 @@ ul {
 .footer .footer-form {}
 .footer .footer-form form {}
 .footer .footer-form form input[type="text"], .footer .footer-form form input[type="email"], .footer .footer-form form textarea {
-    width: 100%;
+    display: block;
+    width: 100% !important;
     color: #757575;
     font-size: 16px;
     font-weight: 400;
@@ -298,6 +300,15 @@ ul {
     }
     .resume .resume-container {
         width: 48%;
+    }
+    .footer {
+        text-align: start;
+    }
+    .footer .footer-container {
+        width: 42%;
+    }
+    .footer .footer-connect .footer-connect-social .row {
+        justify-content: flex-start;
     }
 }
 @media (min-width: 1600px) {
